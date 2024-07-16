@@ -1,5 +1,5 @@
 {% set name = "fasthx" %}
-{% set version = "0.2407.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fasthx-{{ version }}.tar.gz
-  sha256: a5c30b64555b6ee9c64f55f4c765effe8bc9dd9ff86c8390e86c448933feee6c
+  sha256: c528bada92906d32941277f82175823cb154da291c8b185a5afaa4db14f60982
 
 build:
   noarch: python
