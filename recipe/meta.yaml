@@ -1,5 +1,5 @@
 {% set name = "fasthx" %}
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fasthx-{{ version }}.tar.gz
-  sha256: f700c82f73b583732061e7b338ab26ff9e3534f6365609961a5e080403b93ffe
+  sha256: 7595ac9239188df975278f3a17cc71f851b23b49365bdcce39b6092b6d76c9b8
 
 build:
   noarch: python
@@ -23,7 +23,6 @@ requirements:
   run:
     - python >={{ python_min }}
     - fastapi >=0.100.0
-    - typing_extensions >=4.5.0
 
 test:
   imports:
