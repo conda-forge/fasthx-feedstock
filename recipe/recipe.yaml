@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: fasthx
-  version: "3.2.1"
+  version: "3.2.2"
   python_min: "3.11"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/fasthx-${{ version }}.tar.gz
-  sha256: 6f77fffaad8b7e02a5a57f363cd6caea9d057ce9f97ba86eab95c3e4fee72f9f
+  sha256: 92ef17da31c4b7bebc5ee715d306ba4b25379252adf61a810afa76afffab3715
 
 build:
   number: 0
