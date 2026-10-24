@@ -3,7 +3,6 @@ schema_version: 1
 context:
   name: fasthx
   version: "3.2.4"
-  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -14,7 +13,7 @@ source:
   sha256: a35c760246f87e54dec0b0aafc2c84b33549dfc8277ab4be7fb373c54c57493d
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
